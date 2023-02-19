@@ -1,24 +1,6 @@
-# my-project
-
-## Project setup
+Dockerがインストールされていれば、下記の手順でローカルの8080番ポートで立ち上がります。
 ```
-yarn install
+$ docker-compose build
+$ docker-compose up -d
+$ docker-compose exec app yarn serve
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
