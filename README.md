@@ -2,5 +2,4 @@ Dockerがインストールされていれば、下記の手順でローカル�
 ```
 $ docker-compose build
 $ docker-compose up -d
-$ docker-compose exec app yarn serve
 ```
